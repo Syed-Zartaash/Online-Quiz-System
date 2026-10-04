@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pakistan Studies Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Pakistan Studies Quiz</h1>
+        <form action="cgi-bin/quiz.exe" method="GET">
+            <p>Enter your name to start:</p>
+            <input type="text" name="name" required>
+            <input type="hidden" name="q" value="1"> 
+            <input type="hidden" name="score" value="0">
+            <br><button type="submit">Start Quiz</button>
+        </form>
+    </div>
+</body>
+</html>
